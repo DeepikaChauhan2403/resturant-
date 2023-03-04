@@ -1,0 +1,1318 @@
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+  } 
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100vw;
+    height: 120px;
+    background: #000000;
+    align-items: center;
+    z-index: 1;
+  }
+
+   .restaurant-name{
+    /* position: absolute; */
+    width: 250px;
+    height: 51px;
+    /* left: 40px; */
+    /* top: 30px; */
+    font-family: 'Ruda';
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: 1px solid black;
+  }
+  
+  .menu{
+    display: flex;
+    justify-content:center;
+    gap: 35PX;;
+   font-family: 'Ruda';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 0px;
+   text-align: center;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+  .icons{
+    display: flex;
+    justify-content:space-evenly;
+    width: 159px;
+    height: 28px;
+   font-family: 'Ruda';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 0px;
+   align-items: center;
+   text-align: center;
+   color: #FFFFFF;
+} 
+
+  li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color:#FFFFFF ;
+  }
+
+  /* nav bar end  */
+
+   .main-content{ 
+    width: 100vw;
+    height: 610px;
+    position: relative; 
+    left:0px;
+    right:0px;
+    top:100px;
+    background-image: url(./pizza1\ 1.jpg) !important;
+    background-size:cover;
+    background-position: center;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    
+} 
+
+ section .content{
+   /* border:red 3px solid; */
+    padding-top: 20px;
+    width: 100vw;
+    height: 610px;
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 50%;
+}
+
+ .first{
+      /* border:pink 3px solid;  */
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+text-align: center;
+letter-spacing: 0.09em;
+color: #FFFFFF;
+
+
+
+} 
+
+.inner-first{
+  /* border:green 3px solid;  */
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+text-align: center;
+letter-spacing: 0.09em;
+color: #FFFFFF;
+padding-bottom: 30px;
+
+
+}
+.second{
+  padding-left: 110px;
+}
+.inner-second{
+    /* border:rgb(66, 9, 200) 3px solid; */
+    /* position: absolute; */
+width: 500px;
+height: 280px; 
+/* left: 116px;
+top: 613px; */
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+padding-top: 50px;
+border-top: 6px red solid;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+
+}
+
+/*  content end */
+
+.about-us{ 
+    width: 100vw;
+    height: 550px;
+     position: relative; 
+    left:0px;
+    right:0px;
+    top:100px; 
+    background-color: #1E1E1E;
+    padding: 80px 150px;
+     
+}
+
+/* .head{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+} */
+
+.aboutus{
+   position: relative; 
+/* width: 526px;
+height: 58px;
+text-align: center; */
+/* left: 599px;
+top: 1216px; */
+
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.aboutus::after{
+  content: '';
+  position:absolute;
+    bottom: -35px;
+    width: 30%;
+    height: 5px;
+   background-color: red;
+  
+}
+
+.about-us-container{
+  position: relative;
+  padding:75px  0px;
+  height: 350px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* border:green 2px solid; */
+  gap:50px;
+}
+
+.dough{
+  width: 600px;
+height: 300px;
+}
+
+.para{
+  height: 280px;
+  width: 37vw;
+  border-top :red 5px solid;
+  font-family: 'Ruda';
+  font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+padding-top: 15px;
+
+letter-spacing: 0.09em;
+
+}
+
+
+.dough-img{
+  height: 300px;
+  width: 40vw;
+  /* border:blueviolet 2px solid; */
+
+}
+
+/* about us end  */
+
+
+.menu1{
+  width: 100vw;
+    height: 350px;
+     position: relative; 
+    left:0px;
+    right:0px;
+    top:100px; 
+    background-color: #1E1E1E;
+    padding: 80px 150px;
+   
+}
+
+.aboutheading{
+position: relative; 
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.aboutheading::after{
+  content: '';
+  position:absolute;
+    bottom: -35px;
+    width: 30%;
+    height: 5px;
+   background-color: red;
+  
+}
+
+.menu-para p{
+  position: relative;
+  padding:75px  0px;
+  height: 200px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+
+}
+
+/* menu end  */
+
+.menu-items{
+  width: 100vw;
+  height: 700px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 0px 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:30px;
+}
+
+.menu-left{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto auto;
+  row-gap :20px;
+}
+
+.LOREMIPSUM{
+  /* width: 348px;
+height: 51px; */
+/* left: 486px;
+top: 2389px; */
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+padding-top: 40px;
+/* or 0% */
+
+display: flex;
+align-items: center;
+
+color: #F2C94C;
+}
+
+.product-para{
+position: absolute;
+width: 346px;
+height: 120px;
+padding-top: 30px;
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+
+.menu-right{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto auto;
+  row-gap :20px;
+}
+
+/* menu items end  */
+
+.find-us{
+  width: 100vw;
+  height: 550px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 80px 150px;
+}
+
+.findusus{
+  position: relative; 
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.findusus::after{
+  content: '';
+  position:absolute;
+    bottom: -35px;
+    width: 30%;
+    height: 5px;
+   background-color: red;
+  
+}
+
+.find-us-container{
+  position: relative;
+  padding:75px  0px;
+  height: 350px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* border:green 2px solid; */
+  gap:50px;
+}
+
+.map{
+    width: 600px;
+  height: 350px;
+}
+
+.find-para{
+  height: 220px;
+  width: 37vw;
+}
+
+.description{
+  font-family: 'Ruda';
+  font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+padding-top: 15px;
+
+letter-spacing: 0.09em;
+}
+
+.location{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:15px;
+  line-height: 2vw;
+  padding-top: 1vw;
+
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  letter-spacing: 0.09em;
+}
+
+/* location end  */
+
+.footer {
+  padding: 60px;
+  background-color: #1E1E1E;
+  margin-bottom: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .footer .mail-icon {
+  width: 3vw;
+  padding-right: 1vw;
+} */
+
+/* .footer  .phone-icon {
+  width: 3vw;
+  padding-right: 1vw;
+} */
+
+.footer .grp-img {
+  width: 10vw;
+}
+
+.footer .footer-img {
+  padding-left: 6vw;
+}
+
+.footer .contact-details {
+  padding-left: 45vw;
+}
+
+.footer .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2vw;
+  letter-spacing: 0.09em;
+}
+
+.footer .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 2vw;
+  padding-top: 1vw;
+
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  letter-spacing: 0.09em;
+}
+
+
+/*  responsive  */
+  
+
+
+@media  (max-width: 1210px){
+
+    /* nav{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+        position:fixed;
+        width:vw;
+        height:100px;
+        background: #000000;
+        align-items: center;
+      } */
+
+      .restaurant-name{
+        width: 126px;
+        height: 25px;
+        
+        font-weight: 350;
+        font-size: 16px;
+      }
+
+      .menu{
+       gap: 15PX;;
+       height: 14px;
+      font-weight: 90;
+      font-size: 11px;
+   }
+
+   .icons{
+   font-weight:90;
+   font-size: 11px;
+   height: 14px;
+   width: 100px;
+} 
+
+
+section .content{
+ /* border:red 3px solid; */
+  padding-top: 30px;
+  width: 100vw;
+  height: 550px;
+  display: flex;
+  flex-flow: column wrap;
+  padding-right: 50%;
+}
+
+
+.inner-first{
+  /* border:green 3px solid; */
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+letter-spacing: 0.09em;
+color: #FFFFFF;
+padding: 25px 20px;
+
+
+}
+.second{
+padding-left: 100px;
+}
+.inner-second{
+ /* border:rgb(66, 9, 200) 3px solid; */
+ /* position: absolute; */
+width: 500px;
+height: 280px; 
+/* left: 116px;
+top: 613px; */
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+padding-top: 50px;
+border-top: 6px red solid;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+
+}
+/* content end  */
+
+.about-us{ 
+  width: 100vw;
+  height: 600px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 50px 50px;
+   
+}
+
+.aboutus{
+ position: relative; 
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.aboutus::after{
+content: '';
+position:absolute;
+  bottom: -35px;
+  width: 30%;
+  height: 5px;
+ background-color: red;
+
+}
+
+.about-us-container{
+position: relative;
+padding:60px  0px;
+height: 750px;
+width: vw;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+/* border:green 2px solid; */
+gap:20px;
+}
+
+.dough{
+width: 350px;
+height: 300px;
+}
+
+.para{
+height: 280px;
+width: 37vw;
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 20px;
+padding-top: 15px;
+
+letter-spacing: 0.09em;
+
+}
+
+
+.dough-img{
+height: 300px;
+width: 40vw;
+/* border:blueviolet 2px solid; */
+
+}
+
+/* abut us end  */
+
+.menu1{
+  width: 100vw;
+    height: 350px;
+     position: relative; 
+    left:0px;
+    right:0px;
+    top:100px; 
+    background-color: #1E1E1E;
+    padding: 50px 50px;
+}
+
+.aboutheading{
+position: relative; 
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.aboutheading::after{
+  content: '';
+  position:absolute;
+    bottom: -35px;
+    width: 30%;
+    height: 5px;
+   background-color: red;
+  
+}
+
+
+.menu-para p{
+  position: relative;
+  padding:75px  0px;
+  height: 200px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; 
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 20px;
+
+  letter-spacing: 0.09em;
+  color: #FFFFFF;
+
+}
+
+/* menu end  */
+
+.menu-items{
+  width: 100vw;
+  height: 1300px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 0px 70px;
+  display: grid;
+  grid-template-columns: auto;
+  gap:20px;
+}
+
+
+/* menu-item end */
+
+
+
+.find-us{
+  width: 100vw;
+  height: 600px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 50px 50px;
+}
+
+
+.findusus{
+  position: relative; 
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.findusus::after{
+  content: '';
+  position:absolute;
+    bottom: -35px;
+    width: 30%;
+    height: 5px;
+   background-color: red;
+  
+}
+
+.find-us-container{
+  position: relative;
+  padding:60px  0px;
+  height: 750px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* border:green 2px solid; */
+  gap:20px;
+}
+
+
+
+.map{
+    width: 350px;
+  height: 300px;
+}
+
+
+.find-para{
+  height: 220px;
+  width: 37vw;
+}
+
+
+.description{
+  font-family: 'Ruda';
+  font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 20px;
+padding-top: 15px;
+
+letter-spacing: 0.09em;
+}
+
+.location{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8vw;
+    letter-spacing: 0.09em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:15px;
+  line-height: 2vw;
+  padding-top: 1vw;
+
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  letter-spacing: 0.09em;
+}
+
+/* .footer {
+  padding: 100px;
+  background-color: #1E1E1E;
+  margin-bottom: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
+}
+
+
+
+
+
+
+
+ @media  (max-width: 600px){
+
+    nav{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        position: fixed;
+        width: vw;
+        height: 100px;
+        background: #000000;
+        align-items: center;
+      }
+
+      .restaurant-name{
+        width: 126px;
+        height: 25px;
+        
+        font-weight: 350;
+        font-size: 16px;
+      }
+
+      .menu{
+       gap: 15PX;;
+       height: 14px;
+      font-weight: 90;
+      font-size: 11px;
+   }
+
+   .icons{
+   font-weight:90;
+   font-size: 11px;
+   height: 14px;
+   width: 196px;
+} 
+
+/* nav bar end  */
+
+
+
+section .content{
+ /* border:red 3px solid; */
+  padding-top: 20px;
+  width: 100vw;
+  height: 550px;
+  display: flex;
+  flex-flow: column wrap;
+  /* padding-right: 50%; */
+}
+
+first{
+
+}
+.inner-first{
+  /* border:green 3px solid; */
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+text-align: center;
+/* letter-spacing: 0.09em; */
+color: #FFFFFF;
+/* padding: 20px 15px; */
+padding-bottom: 10px;
+
+
+}
+.second{
+padding-left: 40px;
+}
+.inner-second{
+width: 200px;
+height: 220px; 
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+padding-top: 50px;
+border-top: 6px red solid;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+
+}
+
+
+/* content end  */
+
+.about-us{ 
+  width: 100vw;
+  height: 550px;
+  padding: 30px 50px;
+   
+}
+
+.aboutus{
+ position: relative;
+font-weight: 200;
+font-size: 30px;
+line-height: 0px;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.aboutus::after{
+  bottom: -25px;
+  width: 50%;
+  height: 3px;
+}
+
+.about-us-container{
+position: relative;
+padding:40px  0px;
+height: 750px;
+width: vw;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+/* border:green 2px solid; */
+gap:10px;
+}
+
+.dough{
+width: 220px;
+height: 220px;
+}
+
+.para{
+height: 280px;
+width: 37vw;
+border-top :red 3px solid;
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 20px;
+padding-top: 10px;
+
+letter-spacing: 0.09em;
+
+}
+
+
+.dough-img{
+height: 300px;
+width: 40vw;
+/* border:blueviolet 2px solid; */
+
+}
+
+
+
+/* abut us end  */
+
+.menu1{
+  width: 100vw;
+    height: 200px;
+     position: relative; 
+    left:0px;
+    right:0px;
+    top:100px; 
+    background-color: #1E1E1E;
+    padding: 30px 50px;
+   
+}
+
+
+
+.aboutheading{
+position: relative; 
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.aboutheading::after{
+  content: '';
+  position:absolute;
+    bottom: -25px;
+    width: 30%;
+    height: 3px;
+   background-color: red;
+  
+}
+
+
+
+.menu-para p{
+  position: relative;
+  padding:45px  0px;
+  height: 170px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.09em;
+  color: #FFFFFF;
+
+}
+
+/* menu end  */
+
+.menu-items{
+  width: 100vw;
+  height: 1800px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 0px 30px;
+  /* border: red 2px solid; */
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:50% 50%;
+  gap:10px;
+}
+
+
+.menu-left{
+  /* border: 2px green solid; */
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 10% 20% 10% 20% 10%;
+  row-gap :0px;
+}
+.menu-left img{
+  
+  border-radius: 20px;
+  height: 150px;
+  width: 300px;
+}
+
+.menu-right img{
+  border-radius: 20px;
+  height: 150px;
+  width: 300px;
+}
+
+
+
+.LOREMIPSUM{
+  /* width: 348px;
+height: 51px; */
+/* left: 486px;
+top: 2389px; */
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+/* or 0% */
+
+display: flex;
+align-items: center;
+
+color: #F2C94C;
+}
+
+.product-para{
+position: absolute;
+width: 346px;
+height: 120px;
+padding-top: 30px;
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+
+.menu-right{
+  /* border: 2px green solid; */
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 10% 20% 10% 20% 10%;
+  row-gap :10px;
+  
+}
+
+
+/* menu-item end */
+
+
+
+.find-us{
+  width: 100vw;
+  height: 350px;
+   position: relative; 
+  left:0px;
+  right:0px;
+  top:100px; 
+  background-color: #1E1E1E;
+  padding: 30px 50px;
+ 
+}
+
+
+.findusus{
+font-weight: 200;
+font-size: 30px;
+line-height: 0px;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.findusus::after{
+    bottom: -25px;
+    width: 50%;
+    height: 3px;
+  
+}
+
+
+.find-us-container{
+  padding:40px  0px;
+  height: 750px;
+  width: vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* border:green 2px solid; */
+  gap:01px;
+}
+
+
+.map{
+    width: 200px;
+  height: 220px;
+}
+  
+ 
+
+
+.find-para{
+  height: 280px;
+  width: 37vw;
+}
+
+
+.description{
+  font-family: 'Ruda';
+  font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 20px;
+padding-top: 10px;
+
+letter-spacing: 0.09em;
+}
+
+.location{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.8vw;
+    letter-spacing: 0.09em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:15px;
+  line-height: 2vw;
+  padding-top: 1vw;
+
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  letter-spacing: 0.09em;
+}
+
+
+
+
+/* .footer {
+  padding: 80px;
+  background-color: #1E1E1E;
+  margin-bottom: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+ }
